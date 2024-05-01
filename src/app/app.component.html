@@ -1,0 +1,14 @@
+<h1>{{Title}}</h1>
+<link rel="stylesheet" href="app.component.css">
+<input type="text"#address placeholder="Enter your address"name="address"><br>
+<input type="text"#contact placeholder="Enter your contact"name="contact"><br>
+<input type="text"#email placeholder="Enter your email"name="email"><br>
+<input type="text"#password placeholder="Enter your password"name="password"><br>
+
+<button type="button" onclick="getvalue(name.value , address.value, contact.value, email.value)">Click Me!</button>
+ 
+<h1>Your Registered Data</h1><br>
+<P>name:{{displayname}}</P>
+<P>address:{{displayaddress}}</P>
+<P>contact:{{displaycontact}}</P>
+<P>email:{{displayemail}}</P>
